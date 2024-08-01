@@ -52,7 +52,7 @@ function AddUserForm() {
   }
   return (
     <div className="my-10">
-    <h1 className="text-xl font-serif text-center">Add User form</h1>
+    <h1 className="text-xl font-serif text-center animate__animated animate__bounce animate__delay-1s">Add User form</h1>
       <form onSubmit={handleSubmit}>
      {/* user form */}
        <UserFormcard formData={formData} handeChange={handeChange} />
@@ -60,7 +60,7 @@ function AddUserForm() {
 
         <input
           type="submit"
-          className="mx-[50%] bg-green-600 text-white px-4 py-1 rounded-md hover:cursor-pointer hover:bg-green-500"
+          className="mx-[50%] bg-green-600 text-white px-4 py-1 rounded-md hover:cursor-pointer hover:bg-green-500 animate__animated animate__backInUp"
         />
       </form>
     </div>

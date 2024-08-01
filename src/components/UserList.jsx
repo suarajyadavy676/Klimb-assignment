@@ -39,7 +39,7 @@ function UserList() {
   };
 
   return (
-    <div className='sm:m-10 m-5'>
+    <div className='sm:m-10 m-5 animate__animated animate__zoomIn'>
       <div className='flex justify-between'>
         <h1 className='sm:text-2xl text-xl text-green-600'>Manage users</h1>
         <button className='bg-green-600 text-white px-2 py-1 rounded-md'>

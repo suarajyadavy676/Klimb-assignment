@@ -1,5 +1,5 @@
 import AllRoutes from "./components/AllRoutes";
-import UserList from "./components/UserList";
+import "animate.css"
 
 
 function App() {

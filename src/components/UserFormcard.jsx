@@ -2,7 +2,7 @@ import React from 'react'
 
 function UserFormcard({formData,handeChange}) {
   return (
-    <div className='w-[90%] mx-auto my-10'>
+    <div className='w-[90%] mx-auto my-10 animate__animated animate__backInDown'>
     <p className='text-lg font-thin text-right md:mr-10'>All fields are mendatory</p>
       <div className="grid grid-cols-1 justify-center items-center gap-4 sm:grid-cols-2 my-10 shadow-xl md:w-[65%] mx-auto p-5">
           {/* First name */}

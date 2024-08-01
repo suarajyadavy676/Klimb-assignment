@@ -36,7 +36,7 @@ const EditUserPage = () => {
 
   return (
     <div className="my-10">
-      <h2 className="text-xl font-medium mb-4 text-center ">Edit User</h2>
+      <h2 className="text-xl font-medium mb-4 text-center animate__animated animate__bounce animate__delay-1s">Edit User</h2>
       <form onSubmit={handleSubmit} className="">
 
       {/* User form card */}
@@ -44,7 +44,7 @@ const EditUserPage = () => {
     <div className='text-center'>
         <button 
           type="submit" 
-          className="m-4 bg-blue-500 text-white px-4 py-2 mb rounded-md shadow-2xl hover:bg-blue-400"
+          className="m-4 bg-blue-500 text-white px-4 py-2 mb rounded-md shadow-2xl hover:bg-blue-400 animate__animated animate__backInUp"
         >
           Save Changes
         </button>
