@@ -28,7 +28,7 @@ const EditUserPage = () => {
       title: 'Edit User Data',
       description: "The user data has been successfully updated.",
       status: 'success',
-      duration: 9000,
+      duration: 2000,    // Duration set to 2 seconds
       isClosable: true,
     })
     navigate('/');
