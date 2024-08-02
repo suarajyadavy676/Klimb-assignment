@@ -19,9 +19,20 @@ const EditUserPage = () => {
     setFormData(prevData => ({ ...prevData, [name]: value }));
   };
 
+   // Check for duplicate email
+   const checkDuplicateEmail = (email) => {
+    return items.some(item => item.email === email && item.id !== formData.id);
+  };
+
   // handle submit
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    if (checkDuplicateEmail(formData.email)) {
+      alert("An account with this email already exists.");
+      return;
+    }
+
     const updatedItems = items.map(i => (i.id === formData.id ? formData : i));
     setItems(updatedItems);
     toast({
