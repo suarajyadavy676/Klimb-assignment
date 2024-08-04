@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
 import { useToast } from '@chakra-ui/react'
 import { DataContext } from '../context/FormDataContextProvider';
-import UserFormcard from './UserFormcard';
+import UserFormcard from "../components/UserFormcard"
 
 const EditUserPage = () => {
   const toast = useToast()

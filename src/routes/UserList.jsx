@@ -1,9 +1,9 @@
 import React, { useState, useContext, useCallback } from 'react';
 import { IoIosAddCircleOutline } from 'react-icons/io';
-import UserListTable from './UserListTable';
 import { Link } from 'react-router-dom';
-import { DataContext } from '../context/FormDataContextProvider';
+import { DataContext } from "../context/FormDataContextProvider";
 import debounce from 'lodash/debounce';
+import UserListTable from '../components/UserListTable';
 
 function UserList() {
   const { items } = useContext(DataContext);
